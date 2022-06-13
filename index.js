@@ -9,6 +9,7 @@ document.querySelector(".start").onclick = function(){
     location.reload()
   }else{
     playing = true
+    document.querySelector(".question").style.height = "auto"
     document.querySelector(".start").innerHTML = "Reset Game"
     genrandom()
   }
@@ -64,6 +65,7 @@ function gameOver(){
   document.querySelector(".mcq2").innerHTML = ""
   document.querySelector(".mcq3").innerHTML = ""
   document.querySelector(".mcq4").innerHTML = ""
+  document.querySelector(".question").style.height = "100px"
   if(score >= 8 ){
     document.querySelector(".gameOver").style.backgroundColor = "#5FD068"
   }
