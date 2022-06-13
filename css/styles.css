@@ -12,6 +12,7 @@ body{
   border-radius: 60px;
   overflow: auto;
   height: 100px;
+
 }
 
 .option-box{
@@ -107,9 +108,12 @@ body{
   font-size: 20px;
   background-color: #5FD068;
   border-radius: 10px;
-  left: 1000px;
-  bottom: 280px;
-  padding: 10px 40px 0 40px;
+  width: 160px;
+  height: 50px;
+  padding: 9px;
+  margin-left: 920px;
+  margin-top: -250px;
+  /* padding: 10px 40px 0 40px; */
   display: none;
 }
 
