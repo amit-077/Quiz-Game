@@ -147,10 +147,10 @@ questions = [
   },
   {
     question: "The Acid in gastric juice is",
-    m1: "acetic acid",
-    m2: "nitric acid",
-    m3: "hydrochloric acid",
-    m4: "sulphuric acid"
+    m1: "Acetic acid",
+    m2: "Nitric acid",
+    m3: "Hydrochloric acid",
+    m4: "Sulphuric acid"
   },
   {
     question: "Which among the following planets is smaller in size than the Earth?",
